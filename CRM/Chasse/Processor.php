@@ -146,7 +146,7 @@ class CRM_Chasse_Processor
     if (!$step) {
       throw new \Exception("Invalid step index $step_index in journey $journey_id");
     }
-    Civi::log()->info("Chasse processing $journey_id step $step[code]");
+    //Civi::log()->info("Chasse processing $journey_id step $step[code]");
 
     // Check: if there aren't any contacts, don't do anything!
     $count = (int) CRM_Core_DAO::executeQuery("
@@ -188,7 +188,7 @@ class CRM_Chasse_Processor
    * @return int ID of newly created mailing.
    */
   public function sendMailing($msg_template_id, $journey, $step, $group_id) {
-    Civi::log()->info("Chasse sendMailing($msg_template_id, $journey, $step, $group_id)");
+    //Civi::log()->info("Chasse sendMailing($msg_template_id, $journey, $step, $group_id)");
 
 
     $tpl = civicrm_api3('MessageTemplate', 'getsingle', ['id' => $msg_template_id]);
