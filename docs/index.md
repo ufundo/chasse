@@ -18,18 +18,18 @@ The system can be **automated** so that people bump along without you clicking a
 
 !!! summary "Quick start:"
 
-    1. [Install the Chassé extension](/install).
+    1. [Install the Chassé extension](install).
 
-    2. [Define your journeys](/journeys).
+    2. [Define your journeys](journeys).
 
-    3. [How to start people on journeys](/starting).
+    3. [How to start people on journeys](starting).
 
-    4. [Monitoring journeys](/monitoring).
+    4. [Monitoring journeys](monitoring).
 
 ## Free/Libre Software
 
 This extension is written by [Artful Robot](https://artfulrobot.uk/) and
-licensed under [AGPL-3.0](LICENSE.txt). It's hosted at
+licensed under [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html). It's hosted at
 [github](https://github.com/artfulrobot/chasse), please use that for reporting
 issues and pull/merge requests from developers are welcome. Developers: pease
 see the [technical information](/developer) to help you understand how it works.
