@@ -188,8 +188,6 @@ class CRM_Chasse_Processor
    * @return int ID of newly created mailing.
    */
   public function sendMailing($msg_template_id, $journey, $step, $group_id) {
-    //Civi::log()->info("Chasse sendMailing($msg_template_id, $journey, $step, $group_id)");
-
 
     $tpl = civicrm_api3('MessageTemplate', 'getsingle', ['id' => $msg_template_id]);
 
